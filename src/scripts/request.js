@@ -4,7 +4,7 @@
 const getPokemonUrl = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
 //array vai ate o 904 de ID
-const generetePOkemonPromisses = () => Array(154).fill().map((_, index) =>
+const generetePOkemonPromisses = () => Array(904).fill().map((_, index) =>
     fetch(getPokemonUrl(index + 1)).then(res => res.json()))
 
 const genereteHTML = pokemons => pokemons.reduce((acumulator, pokemon) => {
