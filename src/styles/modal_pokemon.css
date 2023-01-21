@@ -1,0 +1,28 @@
+.infoModal__container{
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    background-color: rgba(129, 218, 69, 0.959);
+}
+
+.close{
+    position: relative;
+    font-size: 2rem;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+@media(min-width:768px){
+    .infoModal__container{
+        position: fixed;
+        
+        background-color: rgba(129, 218, 69, 0.959);
+        top: 100px;
+        left: 300px;
+    }
+    
+}

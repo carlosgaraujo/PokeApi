@@ -1,0 +1,185 @@
+
+
+.hidden {
+    display: none;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.header__logo{
+    width: 200px;
+    margin: auto;
+}
+
+.header__logo>img{
+    width: 200px;
+}
+
+.header__pesquisa{
+    margin: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.header__pesquisa>input{
+    height: 25px;
+    border-radius: 16px;
+    width: 80vw;
+}
+
+#btnProcurar{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgb(248, 248, 18);
+    border-radius: 100%;
+    border: transparent;
+}
+#btnProcurar>img{
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.img{
+    width: 50px;
+}
+
+/* Main */
+
+.pokedex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 320px;
+}
+/*  */
+.main__list{
+     min-width: 320px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.main__list>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 0 20px;
+    width: 300px;
+    min-width: 150px;
+    height: 50px;
+
+    border-radius: 16px;
+
+}
+
+.main__list>li>span{
+    cursor: pointer;
+}
+
+.main__list>li>img{
+
+    width: 50px;
+}
+
+.cart{
+    background-image: url(/src/assets/icons/pokebola.png);
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: transparent;
+    cursor: pointer;
+}
+
+.steel {
+	background-color: #f4f4f4;
+}
+.ghost{
+        background-color: #2825c094;
+}
+
+.fire {
+	background-color: #FDDFDF;
+}
+
+.grass {
+	background-color: #DEFDE0;
+}
+
+.electric {
+	background-color: #FCF7DE;
+}
+
+.water, .ice {
+	background-color: #DEF3FD;
+}
+
+.ground {
+	background-color: #f4e7da;
+}
+
+.rock {
+	background-color: #d5d5d4;
+}
+
+.fairy {
+	background-color: #fceaff;
+}
+
+.poison {
+	background-color: #98d7a5;
+}
+
+.bug {
+	background-color: #f8d5a3;
+}
+
+.dragon {
+	background-color: #97b3e6;
+}
+
+.psychic {
+	background-color: #eaeda1;
+}
+
+.flying {
+	background-color: #F5F5F5;
+}
+
+.fighting {
+	background-color: #E6E0D4;
+}
+
+.normal {
+	background-color: #F5F5F5;
+}
+
+@media(min-width:768px){
+
+
+.main__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 16px;
+
+}
+
+}

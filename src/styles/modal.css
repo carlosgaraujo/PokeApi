@@ -1,0 +1,75 @@
+.modal__conteiner {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.767);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    position: relative;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 8px;
+    gap: 32px;
+    padding: 60px;
+    background-image: url(/src/assets/img/bg2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+
+}
+
+.modal__form>h2 {
+    color: #fff;
+    margin: 20px;
+}
+
+
+.modal__form>span {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.modal__form > label {
+    color: #fff;
+}
+
+.modal__form > input {
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+
+.modal__form > button {
+    height: 30px;
+    width: 250px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.6s;
+    background-color: var(--color--btn);
+    border: 1px solid var(--color--btn);
+
+}
+
+.modal__form > button:hover{
+    background-color: var(--);
+}

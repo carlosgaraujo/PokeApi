@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/styles/globalStyles.css">
+    <link rel="stylesheet" href="/src/styles/pokedex.css">
+    <link rel="stylesheet" href="/src/styles/modal_pokemon.css">
+    <!-- javaScript -->
+    <script src="/src/scripts/request.js" defer></script>
+    <script src="/src/scripts/pokedex.js" defer></script>
+    <script src="/src/scripts/modal_pokemon.js" defer></script>
+
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="/src/assets/img/pokedex.png" alt="">
+            </div>
+            <div class="header__pesquisa">
+                <input type="text" name="pokemon" id="pokemon" placeholder="Pesquise Pelo Nome">
+                <button role="button" id="btnProcurar">
+                    <img src="/src/assets/icons/search-icon.png" alt="" srcset="">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <p id="infoUsuario"></p>
+        <ul class="pokedex">
+            <li>
+                <img class="img" src="/src/assets/img/001.png" alt="">
+            </li>
+
+        </ul>
+
+        <p>lista de pokemons</p>
+        <!-- <h2 id="loading">Aguarde! Carregando...</h2> -->
+
+        <ul class="main__list">
+            <!--             
+            <li>
+                <img class="img" src="/src/assets/img/001.png" alt="">
+                <h3>Bulbasaur</h3>
+                <span>info</span>
+                <button id="cart"></button>
+            </li> -->
+        </ul>
+    </main>
+
+
+    <!-- <section class="infoModal__container">
+        <span class="close">X</span>
+        <div>
+            <img src="https://raw.githubusercontent.com/RafaelSilva2k22/PokemonImages/main/images/1.png" alt="">
+        </div>
+    </section> -->
+
+
+
+
+</body>
+
+</html>
